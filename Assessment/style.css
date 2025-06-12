@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0px 10%;
+}
+.section {
+  height: 100%;
+  width: 100%;
+  background: url(/image/dream.png.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  flex: 0 0 20%;
+  max-width: 20%;
+  text-align: center;
+  background: rgba(213, 66, 66, 0.3);
+}
+.nav h1 {
+  font-size: 22px;
+  border: 1px solid rgba(238, 227, 227, 0.5);
+  padding: 20px;
+  height: auto;
+  width: 55%;
+  margin-left: 50px;
+  margin-top: 20px;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+.nav h1::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(238, 227, 227, 0.5);
+  height: 100%;
+  width: 100%;
+  top: -10px;
+  left: -10px;
+}
+nav {
+  padding: 20px;
+}
+nav ul li {
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+}
+.socialicon {
+  padding: 20px;
+}
+.socialicon .icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.socialicon .icons i {
+  font-size: 20px;
+  padding: 5px;
+  background-color: white;
+}
+.contentinfo {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 30%;
+  padding: 10px;
+  margin-left: 60%;
+  margin-top: 10%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.contentinfo h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(138, 138, 220);
+  padding: 10px 0px;
+}
+.section2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.nav1 {
+  flex: 0 0 20%;
+  max-width: 20%;
+  background: rgba(213, 66, 66, 0.5);
+}
+.comprofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding-top: 30px;
+}
+.profile {
+  flex: 0 0 40%;
+  max-width: 40%;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.logo i {
+  font-size: 40px;
+  color: blue;
+}
+.logo h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 50px;
+}
+.ourwork {
+  margin-top: 100px;
+  margin-left: 20px;
+  border: 1px solid rgba(140, 137, 137, 0.5);
+  position: relative;
+}
+.ourwork::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(140, 137, 137, 0.5);
+}
+.ourwork h1,
+.ourclient h1 {
+  padding: 20px;
+  font-size: 20px;
+}
+.imagebox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.imagebox img {
+  flex: 0 0 20%;
+  max-width: 20%;
+  height: 50%;
+  width: 50%;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.circle {
+  height: 10px;
+  width: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: rgb(194, 186, 186);
+}
+
+.ourclient {
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.ourclient p {
+  padding-inline: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.clientgallery {
+  padding: 20px;
+}
+.clientlogo {
+  height: 100px;
+}
+.clientlogo img {
+  border: 1px solid;
+  margin-inline: 10px;
+  height: 80%;
+  width: 20%;
+  object-fit: contain;
+  object-position: center;
+  padding: 20px;
+}
+
+.bottomsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0px;
+}
+.talk {
+  flex: 0 0 50%;
+  max-width: 50%;
+  border: 1px solid rgba(140, 137, 137, 0.5);
+  position: relative;
+  padding: 10px;
+}
+.talk::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgba(140, 137, 137, 0.5);
+  height: 100%;
+  width: 100%;
+  top: -10px;
+  left: -10px;
+}
+.form {
+  padding-left: 80px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.form input,
+textarea {
+  border: 1px solid rgba(238, 227, 227, 1);
+  outline: none;
+}
+button {
+  margin-left: 130px;
+  border: 1px solid rgba(238, 227, 227, 1);
+  padding: 3px;
+}
